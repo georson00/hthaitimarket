@@ -1,2 +1,2 @@
 # HT-Haiti-Market
-A website where Haitian diapora can buy goods for their family memebers in Haiti
+A website where the Haitian diaspora can buy goods for their family members in Haiti.
