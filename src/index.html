@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HT Haiti Market | Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" type="module"></script>
+  </head>
+
+  <body>
+    <header class="divider" id="main-header"></header>
+
+    <main class="divider">
+      <section class="hero">
+        <img
+          src="images/banner.webp"
+          srcset="images/haiti-market-banner-sm.jpg 500w, images/haiti-market-banner.jpg"
+          alt="Haitian market with local products"
+        />
+
+        <div class="logo logo--square">
+          <img src="images/logos/hthaiti-logo.png" alt="HT Haiti Market logo" />
+          <div>HT <span class="highlight">Haiti Market</span></div>
+        </div>
+
+        <div class="mission">
+          <p>
+            Buy goods and necessities from local Haitian businesses for your
+            family members in Haiti.
+          </p>
+        </div>
+      </section>
+
+      <div class="cart-footer hide">
+        <p class="cart-total">Total: $0.00</p>
+      </div>
+
+      <section class="search-section">
+        <h2>Search Products</h2>
+        <input
+          type="text"
+          id="product-search"
+          class="search-input"
+          placeholder="Search food, clothing, health items, electronics..."
+          aria-label="Search products"
+        />
+        <div id="search-results" class="search-results"></div>
+      </section>
+
+      <section class="products">
+        <h2>Shop by Category</h2>
+        <ul class="product-list category-list">
+          <!-- Categories will be injected here -->
+        </ul>
+
+        <template id="category-card-template">
+          <li class="category-card">
+            <a href="">
+              <img src="" alt="" />
+              <h3 class="card__name"></h3>
+            </a>
+          </li>
+        </template>
+      </section>
+
+      <section class="featured-products">
+        <h2>Featured Products</h2>
+        <ul class="product-list" id="featured-product-list">
+          <!-- Featured products will be injected here -->
+        </ul>
+      </section>
+    </main>
+
+    <footer id="main-footer"></footer>
+  </body>
+</html>
