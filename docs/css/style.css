@@ -78,7 +78,56 @@ p {
 .divider {
   border-bottom: 3px solid var(--primary-color);
 }
+/* Haiti Holidays styling*/
+.haiti-info {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f7f9fc;
+  border-radius: 16px;
+  text-align: center;
+}
 
+.haiti-info h2 {
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.haiti-info ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.haiti-info li {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  border-left: 5px solid var(--primary-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.haiti-info li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.haiti-info strong {
+  display: block;
+  color: var(--dark-grey);
+  margin-bottom: 0.4rem;
+}
+
+.haiti-info .holiday-date {
+  font-size: 0.95rem;
+  color: var(--tertiary-color);
+  font-weight: bold;
+}
 /* Logo */
 .logo {
   display: flex;

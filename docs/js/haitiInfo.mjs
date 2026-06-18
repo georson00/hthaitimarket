@@ -23,7 +23,8 @@ export function renderHaitiHolidays(holidays) {
         .map(
           (holiday) => `
             <li>
-              <strong>${holiday.localName}</strong> - ${holiday.date}
+              <strong>${holiday.localName}</strong>
+              <span class="holiday-date">${holiday.date}</span>
             </li>
           `,
         )
