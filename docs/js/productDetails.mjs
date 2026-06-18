@@ -9,14 +9,7 @@ import {
 
 import { getUsdToHtgRate, convertUsdToHtg } from "./exchangeRate.mjs";
 
-const rate = await getUsdToHtgRate();
-const htgPrice = convertUsdToHtg(product.FinalPrice, rate);
 
-priceElement.innerHTML = `
-  $${product.FinalPrice.toFixed(2)}
-  <br>
-  <span>${htgPrice.toLocaleString()} HTG</span>
-`;
 
 export default class ProductDetails {
   constructor(productId, dataSource) {
@@ -66,6 +59,8 @@ export default class ProductDetails {
 
     qs("#productPrice", clone).textContent = `$${final.toFixed(2)}`;
 
+    this.renderHtgPrice(final, clone);
+
     if (retail && retail > final) {
       const discount = retail - final;
       const discountPercent = Math.round((discount / retail) * 100);
@@ -79,14 +74,28 @@ export default class ProductDetails {
       discountEl.classList.remove("hide");
     }
 
-    qs("#productColor", clone).textContent = this.product.Colors[0].ColorName;
+    qs("#productColor", clone).textContent =
+      this.product.Colors?.[0]?.ColorName || "Standard";
     qs("#productDescription", clone).innerHTML =
       this.product.DescriptionHtmlSimple;
     qs("#addToCart", clone).dataset.id = this.product.Id;
 
     qs(".product-detail").appendChild(clone);
   }
+  async renderHtgPrice(final, clone) {
+    try {
+      const rate = await getUsdToHtgRate();
+      const htgPrice = convertUsdToHtg(final, rate);
 
+      qs("#productPrice", clone).innerHTML = `
+      $${final.toFixed(2)}
+      <br>
+      <span>${htgPrice.toLocaleString()} HTG</span>
+    `;
+    } catch (error) {
+      console.error("Exchange rate failed:", error);
+    }
+  }
   addProductToCart(e) {
     e.preventDefault();
     const cart = getLocalStorage("so-cart") || [];
