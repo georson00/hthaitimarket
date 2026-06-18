@@ -1,6 +1,6 @@
 import { renderListWithTemplate } from "./utils.mjs";
 
-const baseURL = import.meta.env.VITE_SERVER_URL;
+const PRODUCTS_URL = "json/products-all.json";
 
 const productCardTemplate = (product) => {
   const retail = Number(product.SuggestedRetailPrice);
@@ -24,8 +24,8 @@ const productCardTemplate = (product) => {
 
   return `
     <li class="product-card">
-      <a href="/product_pages/?product=${product.Id}">
-        <img src="${product.Image}" alt="${product.Name}">
+      <a href="product_pages/?product=${product.Id}">
+        <img src="${product.Images.PrimarySmall}" alt="${product.Name}">
         ${discountHtml}
         <h2>${product.Brand.Name}</h2>
         <h3>${product.Name}</h3>
@@ -40,7 +40,6 @@ export default class ProductSearch {
     this.searchInput = searchInput;
     this.resultsContainer = resultsContainer;
     this.allProducts = [];
-    this.categories = ["tents", "backpacks", "sleeping-bags"];
   }
 
   async init() {
@@ -49,26 +48,24 @@ export default class ProductSearch {
   }
 
   async loadAllProducts() {
-    for (const category of this.categories) {
-      try {
-        const response = await fetch(`${baseURL}products/search/${category}`);
-        if (!response.ok) {
-          throw new Error(
-            `Failed to fetch ${category}: ${response.statusText}`,
-          );
-        }
-        const data = await response.json();
-        const products = data.Result || [];
-        this.allProducts.push(...products);
-      } catch (err) {
-        console.error(`Error loading category ${category}:`, err);
+    try {
+      const response = await fetch(PRODUCTS_URL);
+
+      if (!response.ok) {
+        throw new Error(`Failed to load products: ${response.statusText}`);
       }
+
+      this.allProducts = await response.json();
+    } catch (err) {
+      console.error("Error loading products:", err);
+      this.allProducts = [];
     }
   }
 
   setupEventListeners() {
     this.searchInput.addEventListener("input", (e) => {
       const query = e.target.value.trim().toLowerCase();
+
       if (query.length === 0) {
         this.clearResults();
       } else {
@@ -80,15 +77,19 @@ export default class ProductSearch {
   performSearch(query) {
     const results = this.allProducts.filter((product) => {
       const name = (product.Name || "").toLowerCase();
-      const brand = ((product.Brand && product.Brand.Name) || "").toLowerCase();
+      const brand = (product.Brand?.Name || "").toLowerCase();
       const nameWithoutBrand = (product.NameWithoutBrand || "").toLowerCase();
       const description = (product.DescriptionHtmlSimple || "").toLowerCase();
+      const category = (product.Category || "").toLowerCase();
+      const store = (product.Store || "").toLowerCase();
 
       return (
         name.includes(query) ||
         brand.includes(query) ||
         nameWithoutBrand.includes(query) ||
-        description.includes(query)
+        description.includes(query) ||
+        category.includes(query) ||
+        store.includes(query)
       );
     });
 
