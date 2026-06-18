@@ -6,6 +6,18 @@ import {
   alertMessage,
 } from "./utils.mjs";
 
+
+import { getUsdToHtgRate, convertUsdToHtg } from "./exchangeRate.mjs";
+
+const rate = await getUsdToHtgRate();
+const htgPrice = convertUsdToHtg(product.FinalPrice, rate);
+
+priceElement.innerHTML = `
+  $${product.FinalPrice.toFixed(2)}
+  <br>
+  <span>${htgPrice.toLocaleString()} HTG</span>
+`;
+
 export default class ProductDetails {
   constructor(productId, dataSource) {
     this.productId = productId;
