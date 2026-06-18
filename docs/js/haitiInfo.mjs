@@ -1,26 +1,33 @@
-export async function getHaitiInfo() {
-  const response = await fetch("https://restcountries.com/v3.1/name/haiti");
+export async function getHaitiHolidays() {
+  const response = await fetch(
+    "https://date.nager.at/api/v3/PublicHolidays/2026/HT",
+  );
 
   if (!response.ok) {
-    throw new Error("Could not load Haiti information");
+    throw new Error("Could not load Haiti holiday information");
   }
 
-  const data = await response.json();
-  return data[0];
+  return await response.json();
 }
 
-export function renderHaitiInfo(country) {
+export function renderHaitiHolidays(holidays) {
   const container = document.querySelector("#haiti-info");
   if (!container) return;
 
-  const currencyCode = Object.keys(country.currencies)[0];
+  const firstThree = holidays.slice(0, 3);
 
   container.innerHTML = `
-    <h2>About Haiti</h2>
-    <img src="${country.flags.png}" alt="Flag of Haiti">
-    <p><strong>Capital:</strong> ${country.capital[0]}</p>
-    <p><strong>Currency:</strong> Haitian Gourde (${currencyCode})</p>
-    <p><strong>Region:</strong> ${country.region}</p>
-    <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
+    <h2>Upcoming Haiti Holidays</h2>
+    <ul>
+      ${firstThree
+        .map(
+          (holiday) => `
+            <li>
+              <strong>${holiday.localName}</strong> - ${holiday.date}
+            </li>
+          `,
+        )
+        .join("")}
+    </ul>
   `;
 }

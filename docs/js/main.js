@@ -1,7 +1,7 @@
 import Alert from "./alert.js";
 import { updateCartCount, loadHeaderFooter } from "./utils.mjs";
 import ProductSearch from "./productSearch.mjs";
-import { getHaitiInfo, renderHaitiInfo } from "./haitiInfo.mjs";
+import { getHaitiHolidays, renderHaitiHolidays } from "./haitiInfo.mjs";
 
 new Alert();
 updateCartCount();
@@ -12,10 +12,10 @@ loadHaitiInfo();
 
 async function loadHaitiInfo() {
   try {
-    const haiti = await getHaitiInfo();
-    renderHaitiInfo(haiti);
+    const holidays = await getHaitiHolidays();
+    renderHaitiHolidays(holidays);
   } catch (error) {
-    console.error("Haiti API failed:", error);
+    console.error("Haiti holidays API failed:", error);
   }
 }
 
