@@ -2,6 +2,10 @@
 import Alert from "./alert.js";
 import { updateCartCount, loadHeaderFooter } from "./utils.mjs";
 import ProductSearch from "./productSearch.mjs";
+import { getHaitiInfo, renderHaitiInfo } from "./haitiInfo.mjs";
+
+const haiti = await getHaitiInfo();
+renderHaitiInfo(haiti);
 
 new Alert();
 updateCartCount();
@@ -19,7 +23,7 @@ async function initializeProductSearch() {
   }
 }
 async function loadProductCategories() {
-  const res = await fetch("/json/categories.json");
+  const res = await fetch("json/categories.json");
   const categories = await res.json();
 
   if (!categories) {
@@ -32,8 +36,8 @@ async function loadProductCategories() {
   categories.forEach((category) => {
     const clone = template.content.cloneNode(true);
     const [link, image, title] = clone.querySelectorAll("a, img, h3");
-    link.href = `/product_listing/?category=${category.id}`;
-    image.src = `/images/icons/${category.icon}`;
+    link.href = `product_listing/?category=${category.id}`;
+    image.src = `images/icons/${category.icon}`;
     image.alt = category.name;
     title.textContent = category.name;
     categoryList.appendChild(clone);

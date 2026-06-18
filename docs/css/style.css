@@ -245,7 +245,19 @@ button:hover {
 .search-input::placeholder {
   color: #777;
 }
+/* Haiti Info Styling */
+.haiti-info {
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 900px;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
 
+.haiti-info img {
+  max-width: 90px;
+}
 /* Product and Category Sections */
 .products,
 .featured-products {
