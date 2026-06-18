@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HT Haiti Market | Home</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="../js/productListing.js" type="module"></script>
+  </head>
+
+  <body>
+    <header class="divider" id="main-header"></header>
+    <main class="divider">
+      <section class="products">
+        <div class="title_container">
+          <h2 class="product_category_title"></h2>
+          <div class="filter-container">
+            <label for="sort-filter">Sort by:</label>
+            <select id="sort-filter">
+              <option value="" disabled selected>Select...</option>
+              <option value="name-asc">Name: A to Z</option>
+              <option value="name-desc">Name: Z to A</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+            </select>
+          </div>
+        </div>
+        <ul class="product-list"></ul>
+      </section>
+    </main>
+    <footer id="main-footer"></footer>
+
+    <template id="product-card-template">
+      <li class="product-card">
+        <a href="">
+          <img src="" alt="" />
+          <h3 class="card__brand"></h3>
+          <h2 class="card__name"></h2>
+          <p class="product-card__price"></p>
+        </a>
+      </li>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+[
+  {
+    "Id": "school-001",
+    "Name": "Bòs Noe Backpack",
+    "NameWithoutBrand": "Backpack",
+    "Brand": {
+      "Name": "Bòs Noe"
+    },
+    "Category": "school",
+    "FinalPrice": 24.99,
+    "SuggestedRetailPrice": 29.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/School & Office Supplies/backpack.png",
+      "PrimaryMedium": "../Products/School & Office Supplies/backpack.png",
+      "PrimaryLarge": "../Products/School & Office Supplies/backpack.png"
+    },
+    "DescriptionHtmlSimple": "<p>Durable school backpack with multiple compartments and padded straps.</p>",
+    "Store": "EduLakay Supplies",
+    "Stock": 40,
+    "Rating": 4.7,
+    "Weight": "1 backpack",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Black"
+      }
+    ]
+  },
+  {
+    "Id": "school-002",
+    "Name": "Lekòl Lavi Composition Notebook",
+    "NameWithoutBrand": "Composition Notebook",
+    "Brand": {
+      "Name": "Lekòl Lavi"
+    },
+    "Category": "school",
+    "FinalPrice": 2.99,
+    "SuggestedRetailPrice": 3.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/School & Office Supplies/notebook.png",
+      "PrimaryMedium": "../Products/School & Office Supplies/notebook.png",
+      "PrimaryLarge": "../Products/School & Office Supplies/notebook.png"
+    },
+    "DescriptionHtmlSimple": "<p>Lined composition notebook for school notes, assignments, and daily writing.</p>",
+    "Store": "EduLakay Supplies",
+    "Stock": 150,
+    "Rating": 4.6,
+    "Weight": "80 pages",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Black and White"
+      }
+    ]
+  },
+  {
+    "Id": "school-003",
+    "Name": "Ekri l Ballpoint Pens Pack",
+    "NameWithoutBrand": "Ballpoint Pens Pack",
+    "Brand": {
+      "Name": "Ekri l"
+    },
+    "Category": "school",
+    "FinalPrice": 4.99,
+    "SuggestedRetailPrice": 6.49,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/School & Office Supplies/pens.png",
+      "PrimaryMedium": "../Products/School & Office Supplies/pens.png",
+      "PrimaryLarge": "../Products/School & Office Supplies/pens.png"
+    },
+    "DescriptionHtmlSimple": "<p>Pack of ten smooth-writing ballpoint pens for school and office use.</p>",
+    "Store": "EduLakay Supplies",
+    "Stock": 110,
+    "Rating": 4.5,
+    "Weight": "10 pens",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Blue and Black"
+      }
+    ]
+  },
+  {
+    "Id": "school-004",
+    "Name": "NG Inkjet Printer",
+    "NameWithoutBrand": "Inkjet Printer",
+    "Brand": {
+      "Name": "NG"
+    },
+    "Category": "school",
+    "FinalPrice": 159.99,
+    "SuggestedRetailPrice": 199.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/School & Office Supplies/printer.png",
+      "PrimaryMedium": "../Products/School & Office Supplies/printer.png",
+      "PrimaryLarge": "../Products/School & Office Supplies/printer.png"
+    },
+    "DescriptionHtmlSimple": "<p>Multifunction inkjet printer for printing, copying, and scanning documents.</p>",
+    "Store": "EduLakay Supplies",
+    "Stock": 12,
+    "Rating": 4.7,
+    "Weight": "1 printer",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Black"
+      }
+    ]
+  }
+]

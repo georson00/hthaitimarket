@@ -1,0 +1,118 @@
+[
+  {
+    "Id": "construction-001",
+    "Name": "Ayiti Konstriksyon Portland Cement",
+    "NameWithoutBrand": "Portland Cement",
+    "Brand": {
+      "Name": "Ayiti Konstriksyon"
+    },
+    "Category": "construction",
+    "FinalPrice": 12.5,
+    "SuggestedRetailPrice": 14.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Construction Supply/cement.png",
+      "PrimaryMedium": "../Products/Construction Supply/cement.png",
+      "PrimaryLarge": "../Products/Construction Supply/cement.png"
+    },
+    "DescriptionHtmlSimple": "<p>Strong Portland cement for foundations, walls, columns, and general construction.</p>",
+    "Store": "Build Haiti Depot",
+    "Stock": 80,
+    "Rating": 4.7,
+    "Weight": "94 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Gray"
+      }
+    ]
+  },
+  {
+    "Id": "construction-002",
+    "Name": "Koulè Kreyòl Interior and Exterior Paint",
+    "NameWithoutBrand": "Interior and Exterior Paint",
+    "Brand": {
+      "Name": "Koulè Kreyòl"
+    },
+    "Category": "construction",
+    "FinalPrice": 29.99,
+    "SuggestedRetailPrice": 34.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Construction Supply/paint.png",
+      "PrimaryMedium": "../Products/Construction Supply/paint.png",
+      "PrimaryLarge": "../Products/Construction Supply/paint.png"
+    },
+    "DescriptionHtmlSimple": "<p>Durable Haitian paint for interior and exterior home finishing projects.</p>",
+    "Store": "Build Haiti Depot",
+    "Stock": 35,
+    "Rating": 4.6,
+    "Weight": "1 gal",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "construction-003",
+    "Name": "No Brand Wooden Door",
+    "NameWithoutBrand": "Wooden Door",
+    "Brand": {
+      "Name": "No Brand"
+    },
+    "Category": "construction",
+    "FinalPrice": 149.99,
+    "SuggestedRetailPrice": 179.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Construction Supply/door.png",
+      "PrimaryMedium": "../Products/Construction Supply/door.png",
+      "PrimaryLarge": "../Products/Construction Supply/door.png"
+    },
+    "DescriptionHtmlSimple": "<p>Classic wooden door with frame and hardware for home construction and renovation.</p>",
+    "Store": "Build Haiti Depot",
+    "Stock": 18,
+    "Rating": 4.5,
+    "Weight": "Standard size",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Brown"
+      }
+    ]
+  },
+  {
+    "Id": "construction-004",
+    "Name": "No Brand Sliding Window",
+    "NameWithoutBrand": "Sliding Window",
+    "Brand": {
+      "Name": "No Brand"
+    },
+    "Category": "construction",
+    "FinalPrice": 129.99,
+    "SuggestedRetailPrice": 159.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Construction Supply/window.png",
+      "PrimaryMedium": "../Products/Construction Supply/window.png",
+      "PrimaryLarge": "../Products/Construction Supply/window.png"
+    },
+    "DescriptionHtmlSimple": "<p>Modern sliding window with aluminum frame and clear glass panels.</p>",
+    "Store": "Build Haiti Depot",
+    "Stock": 22,
+    "Rating": 4.4,
+    "Weight": "Standard size",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Bronze"
+      }
+    ]
+  }
+]

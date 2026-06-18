@@ -1,0 +1,785 @@
+[
+  {
+    "Id": "food-001",
+    "Name": "Manje Lakay White Rice",
+    "NameWithoutBrand": "White Rice",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 18.99,
+    "SuggestedRetailPrice": 21.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/white_rice.png",
+      "PrimaryMedium": "../Products/Food and Groceries/white_rice.png",
+      "PrimaryLarge": "../Products/Food and Groceries/white_rice.png"
+    },
+    "DescriptionHtmlSimple": "<p>Premium white rice for everyday family meals and Haitian-style cooking.</p>",
+    "Store": "Lakay Market",
+    "Stock": 50,
+    "Rating": 4.8,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "food-002",
+    "Name": "Manje Lakay Yellow Rice",
+    "NameWithoutBrand": "Yellow Rice",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 19.99,
+    "SuggestedRetailPrice": 22.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/yellow_rice.png",
+      "PrimaryMedium": "../Products/Food and Groceries/yellow_rice.png",
+      "PrimaryLarge": "../Products/Food and Groceries/yellow_rice.png"
+    },
+    "DescriptionHtmlSimple": "<p>Flavorful yellow rice with a colorful package inspired by Haitian agriculture.</p>",
+    "Store": "Lakay Market",
+    "Stock": 42,
+    "Rating": 4.7,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Yellow"
+      }
+    ]
+  },
+  {
+    "Id": "food-003",
+    "Name": "Manje Lakay Black Beans",
+    "NameWithoutBrand": "Black Beans",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 14.99,
+    "SuggestedRetailPrice": 17.49,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/black_beans.png",
+      "PrimaryMedium": "../Products/Food and Groceries/black_beans.png",
+      "PrimaryLarge": "../Products/Food and Groceries/black_beans.png"
+    },
+    "DescriptionHtmlSimple": "<p>Protein-rich black beans for rice, soups, and traditional Haitian dishes.</p>",
+    "Store": "Lakay Market",
+    "Stock": 48,
+    "Rating": 4.8,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Black"
+      }
+    ]
+  },
+  {
+    "Id": "food-004",
+    "Name": "Manje Lakay Red Beans",
+    "NameWithoutBrand": "Red Beans",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 15.99,
+    "SuggestedRetailPrice": 18.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/red_beans.png",
+      "PrimaryMedium": "../Products/Food and Groceries/red_beans.png",
+      "PrimaryLarge": "../Products/Food and Groceries/red_beans.png"
+    },
+    "DescriptionHtmlSimple": "<p>Premium red beans, perfect for diri kole and family meals.</p>",
+    "Store": "Lakay Market",
+    "Stock": 45,
+    "Rating": 4.7,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Red"
+      }
+    ]
+  },
+  {
+    "Id": "food-005",
+    "Name": "Manje Lakay Spaghetti",
+    "NameWithoutBrand": "Spaghetti",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 4.99,
+    "SuggestedRetailPrice": 6.49,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/Spaguetti.png",
+      "PrimaryMedium": "../Products/Food and Groceries/Spaguetti.png",
+      "PrimaryLarge": "../Products/Food and Groceries/Spaguetti.png"
+    },
+    "DescriptionHtmlSimple": "<p>Premium spaghetti pasta for quick meals and Haitian spaghetti recipes.</p>",
+    "Store": "Lakay Market",
+    "Stock": 100,
+    "Rating": 4.6,
+    "Weight": "1 pack",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Natural"
+      }
+    ]
+  },
+  {
+    "Id": "food-006",
+    "Name": "Manje Lakay Tomato Paste",
+    "NameWithoutBrand": "Tomato Paste",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 3.99,
+    "SuggestedRetailPrice": 4.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/tomato_paste.png",
+      "PrimaryMedium": "../Products/Food and Groceries/tomato_paste.png",
+      "PrimaryLarge": "../Products/Food and Groceries/tomato_paste.png"
+    },
+    "DescriptionHtmlSimple": "<p>Rich tomato paste for sauces, stews, rice, and everyday cooking.</p>",
+    "Store": "Lakay Market",
+    "Stock": 120,
+    "Rating": 4.5,
+    "Weight": "28 oz",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Red"
+      }
+    ]
+  },
+  {
+    "Id": "food-007",
+    "Name": "Manje Lakay White Sugar",
+    "NameWithoutBrand": "White Sugar",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 8.99,
+    "SuggestedRetailPrice": 10.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/white_sugar.png",
+      "PrimaryMedium": "../Products/Food and Groceries/white_sugar.png",
+      "PrimaryLarge": "../Products/Food and Groceries/white_sugar.png"
+    },
+    "DescriptionHtmlSimple": "<p>Refined white sugar for drinks, baking, and daily kitchen use.</p>",
+    "Store": "Lakay Market",
+    "Stock": 60,
+    "Rating": 4.5,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "food-008",
+    "Name": "Manje Lakay Brown Sugar",
+    "NameWithoutBrand": "Brown Sugar",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 9.99,
+    "SuggestedRetailPrice": 11.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/brown_sugar.png",
+      "PrimaryMedium": "../Products/Food and Groceries/brown_sugar.png",
+      "PrimaryLarge": "../Products/Food and Groceries/brown_sugar.png"
+    },
+    "DescriptionHtmlSimple": "<p>Natural brown sugar with a rich flavor for coffee, baking, and desserts.</p>",
+    "Store": "Lakay Market",
+    "Stock": 55,
+    "Rating": 4.7,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Brown"
+      }
+    ]
+  },
+  {
+    "Id": "construction-001",
+    "Name": "Ayiti Konstriksyon Portland Cement",
+    "NameWithoutBrand": "Portland Cement",
+    "Brand": {
+      "Name": "Ayiti Konstriksyon"
+    },
+    "Category": "construction",
+    "FinalPrice": 12.5,
+    "SuggestedRetailPrice": 14.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Construction Supply/cement.png",
+      "PrimaryMedium": "../Products/Construction Supply/cement.png",
+      "PrimaryLarge": "../Products/Construction Supply/cement.png"
+    },
+    "DescriptionHtmlSimple": "<p>Strong Portland cement for foundations, walls, columns, and general construction.</p>",
+    "Store": "Build Haiti Depot",
+    "Stock": 80,
+    "Rating": 4.7,
+    "Weight": "94 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Gray"
+      }
+    ]
+  },
+  {
+    "Id": "construction-002",
+    "Name": "Koulè Kreyòl Interior and Exterior Paint",
+    "NameWithoutBrand": "Interior and Exterior Paint",
+    "Brand": {
+      "Name": "Koulè Kreyòl"
+    },
+    "Category": "construction",
+    "FinalPrice": 29.99,
+    "SuggestedRetailPrice": 34.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Construction Supply/paint.png",
+      "PrimaryMedium": "../Products/Construction Supply/paint.png",
+      "PrimaryLarge": "../Products/Construction Supply/paint.png"
+    },
+    "DescriptionHtmlSimple": "<p>Durable Haitian paint for interior and exterior home finishing projects.</p>",
+    "Store": "Build Haiti Depot",
+    "Stock": 35,
+    "Rating": 4.6,
+    "Weight": "1 gal",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "construction-003",
+    "Name": "No Brand Wooden Door",
+    "NameWithoutBrand": "Wooden Door",
+    "Brand": {
+      "Name": "No Brand"
+    },
+    "Category": "construction",
+    "FinalPrice": 149.99,
+    "SuggestedRetailPrice": 179.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Construction Supply/door.png",
+      "PrimaryMedium": "../Products/Construction Supply/door.png",
+      "PrimaryLarge": "../Products/Construction Supply/door.png"
+    },
+    "DescriptionHtmlSimple": "<p>Classic wooden door with frame and hardware for home construction and renovation.</p>",
+    "Store": "Build Haiti Depot",
+    "Stock": 18,
+    "Rating": 4.5,
+    "Weight": "Standard size",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Brown"
+      }
+    ]
+  },
+  {
+    "Id": "construction-004",
+    "Name": "No Brand Sliding Window",
+    "NameWithoutBrand": "Sliding Window",
+    "Brand": {
+      "Name": "No Brand"
+    },
+    "Category": "construction",
+    "FinalPrice": 129.99,
+    "SuggestedRetailPrice": 159.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Construction Supply/window.png",
+      "PrimaryMedium": "../Products/Construction Supply/window.png",
+      "PrimaryLarge": "../Products/Construction Supply/window.png"
+    },
+    "DescriptionHtmlSimple": "<p>Modern sliding window with aluminum frame and clear glass panels.</p>",
+    "Store": "Build Haiti Depot",
+    "Stock": 22,
+    "Rating": 4.4,
+    "Weight": "Standard size",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Bronze"
+      }
+    ]
+  },
+  {
+    "Id": "electrical-001",
+    "Name": "Klere Ayiti Solar Panel",
+    "NameWithoutBrand": "Solar Panel",
+    "Brand": {
+      "Name": "Klere Ayiti"
+    },
+    "Category": "electrical",
+    "FinalPrice": 189.99,
+    "SuggestedRetailPrice": 229.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Electrical Supply/solar_panel.png",
+      "PrimaryMedium": "../Products/Electrical Supply/solar_panel.png",
+      "PrimaryLarge": "../Products/Electrical Supply/solar_panel.png"
+    },
+    "DescriptionHtmlSimple": "<p>High-efficiency solar panel for homes, small businesses, and backup power systems.</p>",
+    "Store": "Solar Plus Haiti",
+    "Stock": 24,
+    "Rating": 4.9,
+    "Weight": "300W",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Black"
+      }
+    ]
+  },
+  {
+    "Id": "electrical-002",
+    "Name": "Klere Ayiti Solar Inverter",
+    "NameWithoutBrand": "Solar Inverter",
+    "Brand": {
+      "Name": "Klere Ayiti"
+    },
+    "Category": "electrical",
+    "FinalPrice": 399.99,
+    "SuggestedRetailPrice": 469.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Electrical Supply/solar_inverter.png",
+      "PrimaryMedium": "../Products/Electrical Supply/solar_inverter.png",
+      "PrimaryLarge": "../Products/Electrical Supply/solar_inverter.png"
+    },
+    "DescriptionHtmlSimple": "<p>Reliable solar inverter designed for clean power and home energy systems.</p>",
+    "Store": "Solar Plus Haiti",
+    "Stock": 12,
+    "Rating": 4.8,
+    "Weight": "5000W",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Blue and White"
+      }
+    ]
+  },
+  {
+    "Id": "electrical-003",
+    "Name": "Klere Ayiti Solar Battery",
+    "NameWithoutBrand": "Solar Battery",
+    "Brand": {
+      "Name": "Klere Ayiti"
+    },
+    "Category": "electrical",
+    "FinalPrice": 279.99,
+    "SuggestedRetailPrice": 329.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Electrical Supply/battery.png",
+      "PrimaryMedium": "../Products/Electrical Supply/battery.png",
+      "PrimaryLarge": "../Products/Electrical Supply/battery.png"
+    },
+    "DescriptionHtmlSimple": "<p>Deep-cycle solar battery for storing energy and supporting backup systems.</p>",
+    "Store": "Solar Plus Haiti",
+    "Stock": 16,
+    "Rating": 4.8,
+    "Weight": "12V 200Ah",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Blue and White"
+      }
+    ]
+  },
+  {
+    "Id": "electrical-004",
+    "Name": "Klere Ayiti Portable Generator",
+    "NameWithoutBrand": "Portable Generator",
+    "Brand": {
+      "Name": "Klere Ayiti"
+    },
+    "Category": "electrical",
+    "FinalPrice": 349.99,
+    "SuggestedRetailPrice": 419.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Electrical Supply/generator.png",
+      "PrimaryMedium": "../Products/Electrical Supply/generator.png",
+      "PrimaryLarge": "../Products/Electrical Supply/generator.png"
+    },
+    "DescriptionHtmlSimple": "<p>Compact generator for backup electricity during outages and emergencies.</p>",
+    "Store": "Solar Plus Haiti",
+    "Stock": 10,
+    "Rating": 4.6,
+    "Weight": "2500W",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Blue"
+      }
+    ]
+  },
+  {
+    "Id": "household-001",
+    "Name": "Ranje Chita w Plastic Chair",
+    "NameWithoutBrand": "Plastic Chair",
+    "Brand": {
+      "Name": "Ranje Chita w"
+    },
+    "Category": "household",
+    "FinalPrice": 12.99,
+    "SuggestedRetailPrice": 16.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Household & Appliances/plastic_chair.png",
+      "PrimaryMedium": "../Products/Household & Appliances/plastic_chair.png",
+      "PrimaryLarge": "../Products/Household & Appliances/plastic_chair.png"
+    },
+    "DescriptionHtmlSimple": "<p>Durable plastic chair for home, yard, church, and community gatherings.</p>",
+    "Store": "Home Essentials Haiti",
+    "Stock": 75,
+    "Rating": 4.5,
+    "Weight": "1 chair",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Beige"
+      }
+    ]
+  },
+  {
+    "Id": "household-002",
+    "Name": "Eko Ayiti Gas Stove",
+    "NameWithoutBrand": "Gas Stove",
+    "Brand": {
+      "Name": "Eko Ayiti"
+    },
+    "Category": "household",
+    "FinalPrice": 299.99,
+    "SuggestedRetailPrice": 359.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Household & Appliances/gas_stove.png",
+      "PrimaryMedium": "../Products/Household & Appliances/gas_stove.png",
+      "PrimaryLarge": "../Products/Household & Appliances/gas_stove.png"
+    },
+    "DescriptionHtmlSimple": "<p>Four-burner gas stove with oven for reliable family cooking.</p>",
+    "Store": "Home Essentials Haiti",
+    "Stock": 14,
+    "Rating": 4.7,
+    "Weight": "4 burners",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Silver"
+      }
+    ]
+  },
+  {
+    "Id": "household-003",
+    "Name": "No Brand Haitian Dining Table Set",
+    "NameWithoutBrand": "Haitian Dining Table Set",
+    "Brand": {
+      "Name": "No Brand"
+    },
+    "Category": "household",
+    "FinalPrice": 499.99,
+    "SuggestedRetailPrice": 599.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Household & Appliances/dining_table_set.png",
+      "PrimaryMedium": "../Products/Household & Appliances/dining_table_set.png",
+      "PrimaryLarge": "../Products/Household & Appliances/dining_table_set.png"
+    },
+    "DescriptionHtmlSimple": "<p>Wooden Haitian-style dining table set with six carved chairs.</p>",
+    "Store": "Home Essentials Haiti",
+    "Stock": 8,
+    "Rating": 4.8,
+    "Weight": "Table + 6 chairs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Brown"
+      }
+    ]
+  },
+  {
+    "Id": "personal-care-001",
+    "Name": "Bèl Dan Toothpaste",
+    "NameWithoutBrand": "Toothpaste",
+    "Brand": {
+      "Name": "Bèl Dan"
+    },
+    "Category": "personal-care",
+    "FinalPrice": 3.99,
+    "SuggestedRetailPrice": 4.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Personal care/toothpaste.png",
+      "PrimaryMedium": "../Products/Personal care/toothpaste.png",
+      "PrimaryLarge": "../Products/Personal care/toothpaste.png"
+    },
+    "DescriptionHtmlSimple": "<p>Mint toothpaste for fresh breath, cavity protection, and daily oral care.</p>",
+    "Store": "Santé Lakay",
+    "Stock": 90,
+    "Rating": 4.6,
+    "Weight": "150 g",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Blue and White"
+      }
+    ]
+  },
+  {
+    "Id": "personal-care-002",
+    "Name": "Bèl Dan Toothbrush",
+    "NameWithoutBrand": "Toothbrush",
+    "Brand": {
+      "Name": "Bèl Dan"
+    },
+    "Category": "personal-care",
+    "FinalPrice": 2.49,
+    "SuggestedRetailPrice": 3.49,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Personal care/toothbrush.png",
+      "PrimaryMedium": "../Products/Personal care/toothbrush.png",
+      "PrimaryLarge": "../Products/Personal care/toothbrush.png"
+    },
+    "DescriptionHtmlSimple": "<p>Soft-bristle toothbrush designed for comfortable daily cleaning.</p>",
+    "Store": "Santé Lakay",
+    "Stock": 100,
+    "Rating": 4.5,
+    "Weight": "1 toothbrush",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Blue and White"
+      }
+    ]
+  },
+  {
+    "Id": "personal-care-003",
+    "Name": "Bèl Po Beauty Soap",
+    "NameWithoutBrand": "Beauty Soap",
+    "Brand": {
+      "Name": "Bèl Po"
+    },
+    "Category": "personal-care",
+    "FinalPrice": 2.99,
+    "SuggestedRetailPrice": 3.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Personal care/soap.png",
+      "PrimaryMedium": "../Products/Personal care/soap.png",
+      "PrimaryLarge": "../Products/Personal care/soap.png"
+    },
+    "DescriptionHtmlSimple": "<p>Gentle beauty soap for clean, soft, and hydrated skin.</p>",
+    "Store": "Santé Lakay",
+    "Stock": 85,
+    "Rating": 4.7,
+    "Weight": "125 g",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "personal-care-004",
+    "Name": "Bèl Po Body Lotion",
+    "NameWithoutBrand": "Body Lotion",
+    "Brand": {
+      "Name": "Bèl Po"
+    },
+    "Category": "personal-care",
+    "FinalPrice": 7.99,
+    "SuggestedRetailPrice": 9.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Personal care/body_lotion.png",
+      "PrimaryMedium": "../Products/Personal care/body_lotion.png",
+      "PrimaryLarge": "../Products/Personal care/body_lotion.png"
+    },
+    "DescriptionHtmlSimple": "<p>Moisturizing body lotion enriched for smooth and nourished skin.</p>",
+    "Store": "Santé Lakay",
+    "Stock": 65,
+    "Rating": 4.8,
+    "Weight": "400 ml",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "school-001",
+    "Name": "Bòs Noe Backpack",
+    "NameWithoutBrand": "Backpack",
+    "Brand": {
+      "Name": "Bòs Noe"
+    },
+    "Category": "school",
+    "FinalPrice": 24.99,
+    "SuggestedRetailPrice": 29.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/School & Office Supplies/backpack.png",
+      "PrimaryMedium": "../Products/School & Office Supplies/backpack.png",
+      "PrimaryLarge": "../Products/School & Office Supplies/backpack.png"
+    },
+    "DescriptionHtmlSimple": "<p>Durable school backpack with multiple compartments and padded straps.</p>",
+    "Store": "EduLakay Supplies",
+    "Stock": 40,
+    "Rating": 4.7,
+    "Weight": "1 backpack",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Black"
+      }
+    ]
+  },
+  {
+    "Id": "school-002",
+    "Name": "Lekòl Lavi Composition Notebook",
+    "NameWithoutBrand": "Composition Notebook",
+    "Brand": {
+      "Name": "Lekòl Lavi"
+    },
+    "Category": "school",
+    "FinalPrice": 2.99,
+    "SuggestedRetailPrice": 3.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/School & Office Supplies/notebook.png",
+      "PrimaryMedium": "../Products/School & Office Supplies/notebook.png",
+      "PrimaryLarge": "../Products/School & Office Supplies/notebook.png"
+    },
+    "DescriptionHtmlSimple": "<p>Lined composition notebook for school notes, assignments, and daily writing.</p>",
+    "Store": "EduLakay Supplies",
+    "Stock": 150,
+    "Rating": 4.6,
+    "Weight": "80 pages",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Black and White"
+      }
+    ]
+  },
+  {
+    "Id": "school-003",
+    "Name": "Ekri l Ballpoint Pens Pack",
+    "NameWithoutBrand": "Ballpoint Pens Pack",
+    "Brand": {
+      "Name": "Ekri l"
+    },
+    "Category": "school",
+    "FinalPrice": 4.99,
+    "SuggestedRetailPrice": 6.49,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/School & Office Supplies/pens.png",
+      "PrimaryMedium": "../Products/School & Office Supplies/pens.png",
+      "PrimaryLarge": "../Products/School & Office Supplies/pens.png"
+    },
+    "DescriptionHtmlSimple": "<p>Pack of ten smooth-writing ballpoint pens for school and office use.</p>",
+    "Store": "EduLakay Supplies",
+    "Stock": 110,
+    "Rating": 4.5,
+    "Weight": "10 pens",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Blue and Black"
+      }
+    ]
+  },
+  {
+    "Id": "school-004",
+    "Name": "NG Inkjet Printer",
+    "NameWithoutBrand": "Inkjet Printer",
+    "Brand": {
+      "Name": "NG"
+    },
+    "Category": "school",
+    "FinalPrice": 159.99,
+    "SuggestedRetailPrice": 199.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/School & Office Supplies/printer.png",
+      "PrimaryMedium": "../Products/School & Office Supplies/printer.png",
+      "PrimaryLarge": "../Products/School & Office Supplies/printer.png"
+    },
+    "DescriptionHtmlSimple": "<p>Multifunction inkjet printer for printing, copying, and scanning documents.</p>",
+    "Store": "EduLakay Supplies",
+    "Stock": 12,
+    "Rating": 4.7,
+    "Weight": "1 printer",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Black"
+      }
+    ]
+  }
+]

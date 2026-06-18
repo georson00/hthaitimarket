@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HT Haiti Market | Product Details</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <script src="../js/product.js" type="module"></script>
+  </head>
+
+  <body>
+    <header class="divider" id="main-header"></header>
+
+    <main class="divider">
+      <section class="product-detail"></section>
+
+      <div class="comment-section hide">
+        <section class="product-comments">
+          <h2>Comments</h2>
+          <ul id="commentsList"></ul>
+        </section>
+        <section class="product-comments">
+          <h3>Share Your Thoughts</h3>
+
+          <form id="commentForm">
+            <input
+              id="commentName"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+            <textarea
+              id="commentText"
+              placeholder="Write a comment"
+              required
+            ></textarea>
+            <button id="addComment" type="submit">Add Comment</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer id="main-footer"></footer>
+
+    <template id="product-template">
+      <h3 id="productBrandName"></h3>
+
+      <h2 class="divider" id="productName"></h2>
+
+      <img class="divider" id="productImage" src="" alt="" />
+
+      <div class="product-detail__price-container">
+        <span
+          class="product-card__retail-price hide"
+          id="productRetailPrice"
+        ></span>
+        <span class="product-card__price" id="productPrice"></span>
+        <span class="product-card__discount hide" id="productDiscount"></span>
+      </div>
+
+      <p class="product__color" id="productColor"></p>
+
+      <p class="product__description" id="productDescription"></p>
+
+      <div class="product-detail__add">
+        <button id="addToCart" data-id="">Add to Cart</button>
+      </div>
+    </template>
+  </body>
+</html>

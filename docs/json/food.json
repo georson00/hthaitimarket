@@ -1,0 +1,234 @@
+[
+  {
+    "Id": "food-001",
+    "Name": "Manje Lakay White Rice",
+    "NameWithoutBrand": "White Rice",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 18.99,
+    "SuggestedRetailPrice": 21.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/white_rice.png",
+      "PrimaryMedium": "../Products/Food and Groceries/white_rice.png",
+      "PrimaryLarge": "../Products/Food and Groceries/white_rice.png"
+    },
+    "DescriptionHtmlSimple": "<p>Premium white rice for everyday family meals and Haitian-style cooking.</p>",
+    "Store": "Lakay Market",
+    "Stock": 50,
+    "Rating": 4.8,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "food-002",
+    "Name": "Manje Lakay Yellow Rice",
+    "NameWithoutBrand": "Yellow Rice",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 19.99,
+    "SuggestedRetailPrice": 22.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/yellow_rice.png",
+      "PrimaryMedium": "../Products/Food and Groceries/yellow_rice.png",
+      "PrimaryLarge": "../Products/Food and Groceries/yellow_rice.png"
+    },
+    "DescriptionHtmlSimple": "<p>Flavorful yellow rice with a colorful package inspired by Haitian agriculture.</p>",
+    "Store": "Lakay Market",
+    "Stock": 42,
+    "Rating": 4.7,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Yellow"
+      }
+    ]
+  },
+  {
+    "Id": "food-003",
+    "Name": "Manje Lakay Black Beans",
+    "NameWithoutBrand": "Black Beans",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 14.99,
+    "SuggestedRetailPrice": 17.49,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/black_beans.png",
+      "PrimaryMedium": "../Products/Food and Groceries/black_beans.png",
+      "PrimaryLarge": "../Products/Food and Groceries/black_beans.png"
+    },
+    "DescriptionHtmlSimple": "<p>Protein-rich black beans for rice, soups, and traditional Haitian dishes.</p>",
+    "Store": "Lakay Market",
+    "Stock": 48,
+    "Rating": 4.8,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Black"
+      }
+    ]
+  },
+  {
+    "Id": "food-004",
+    "Name": "Manje Lakay Red Beans",
+    "NameWithoutBrand": "Red Beans",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 15.99,
+    "SuggestedRetailPrice": 18.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/red_beans.png",
+      "PrimaryMedium": "../Products/Food and Groceries/red_beans.png",
+      "PrimaryLarge": "../Products/Food and Groceries/red_beans.png"
+    },
+    "DescriptionHtmlSimple": "<p>Premium red beans, perfect for diri kole and family meals.</p>",
+    "Store": "Lakay Market",
+    "Stock": 45,
+    "Rating": 4.7,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Red"
+      }
+    ]
+  },
+  {
+    "Id": "food-005",
+    "Name": "Manje Lakay Spaghetti",
+    "NameWithoutBrand": "Spaghetti",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 4.99,
+    "SuggestedRetailPrice": 6.49,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/Spaguetti.png",
+      "PrimaryMedium": "../Products/Food and Groceries/Spaguetti.png",
+      "PrimaryLarge": "../Products/Food and Groceries/Spaguetti.png"
+    },
+    "DescriptionHtmlSimple": "<p>Premium spaghetti pasta for quick meals and Haitian spaghetti recipes.</p>",
+    "Store": "Lakay Market",
+    "Stock": 100,
+    "Rating": 4.6,
+    "Weight": "1 pack",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Natural"
+      }
+    ]
+  },
+  {
+    "Id": "food-006",
+    "Name": "Manje Lakay Tomato Paste",
+    "NameWithoutBrand": "Tomato Paste",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 3.99,
+    "SuggestedRetailPrice": 4.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/tomato_paste.png",
+      "PrimaryMedium": "../Products/Food and Groceries/tomato_paste.png",
+      "PrimaryLarge": "../Products/Food and Groceries/tomato_paste.png"
+    },
+    "DescriptionHtmlSimple": "<p>Rich tomato paste for sauces, stews, rice, and everyday cooking.</p>",
+    "Store": "Lakay Market",
+    "Stock": 120,
+    "Rating": 4.5,
+    "Weight": "28 oz",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Red"
+      }
+    ]
+  },
+  {
+    "Id": "food-007",
+    "Name": "Manje Lakay White Sugar",
+    "NameWithoutBrand": "White Sugar",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 8.99,
+    "SuggestedRetailPrice": 10.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/white_sugar.png",
+      "PrimaryMedium": "../Products/Food and Groceries/white_sugar.png",
+      "PrimaryLarge": "../Products/Food and Groceries/white_sugar.png"
+    },
+    "DescriptionHtmlSimple": "<p>Refined white sugar for drinks, baking, and daily kitchen use.</p>",
+    "Store": "Lakay Market",
+    "Stock": 60,
+    "Rating": 4.5,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "food-008",
+    "Name": "Manje Lakay Brown Sugar",
+    "NameWithoutBrand": "Brown Sugar",
+    "Brand": {
+      "Name": "Manje Lakay"
+    },
+    "Category": "food",
+    "FinalPrice": 9.99,
+    "SuggestedRetailPrice": 11.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Food and Groceries/brown_sugar.png",
+      "PrimaryMedium": "../Products/Food and Groceries/brown_sugar.png",
+      "PrimaryLarge": "../Products/Food and Groceries/brown_sugar.png"
+    },
+    "DescriptionHtmlSimple": "<p>Natural brown sugar with a rich flavor for coffee, baking, and desserts.</p>",
+    "Store": "Lakay Market",
+    "Stock": 55,
+    "Rating": 4.7,
+    "Weight": "10 lbs",
+    "Origin": "Haiti",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "Brown"
+      }
+    ]
+  }
+]

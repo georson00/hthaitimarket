@@ -1,0 +1,118 @@
+[
+  {
+    "Id": "personal-care-001",
+    "Name": "Bèl Dan Toothpaste",
+    "NameWithoutBrand": "Toothpaste",
+    "Brand": {
+      "Name": "Bèl Dan"
+    },
+    "Category": "personal-care",
+    "FinalPrice": 3.99,
+    "SuggestedRetailPrice": 4.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Personal care/toothpaste.png",
+      "PrimaryMedium": "../Products/Personal care/toothpaste.png",
+      "PrimaryLarge": "../Products/Personal care/toothpaste.png"
+    },
+    "DescriptionHtmlSimple": "<p>Mint toothpaste for fresh breath, cavity protection, and daily oral care.</p>",
+    "Store": "Santé Lakay",
+    "Stock": 90,
+    "Rating": 4.6,
+    "Weight": "150 g",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Blue and White"
+      }
+    ]
+  },
+  {
+    "Id": "personal-care-002",
+    "Name": "Bèl Dan Toothbrush",
+    "NameWithoutBrand": "Toothbrush",
+    "Brand": {
+      "Name": "Bèl Dan"
+    },
+    "Category": "personal-care",
+    "FinalPrice": 2.49,
+    "SuggestedRetailPrice": 3.49,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Personal care/toothbrush.png",
+      "PrimaryMedium": "../Products/Personal care/toothbrush.png",
+      "PrimaryLarge": "../Products/Personal care/toothbrush.png"
+    },
+    "DescriptionHtmlSimple": "<p>Soft-bristle toothbrush designed for comfortable daily cleaning.</p>",
+    "Store": "Santé Lakay",
+    "Stock": 100,
+    "Rating": 4.5,
+    "Weight": "1 toothbrush",
+    "Origin": "Imported",
+    "Featured": false,
+    "Colors": [
+      {
+        "ColorName": "Blue and White"
+      }
+    ]
+  },
+  {
+    "Id": "personal-care-003",
+    "Name": "Bèl Po Beauty Soap",
+    "NameWithoutBrand": "Beauty Soap",
+    "Brand": {
+      "Name": "Bèl Po"
+    },
+    "Category": "personal-care",
+    "FinalPrice": 2.99,
+    "SuggestedRetailPrice": 3.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Personal care/soap.png",
+      "PrimaryMedium": "../Products/Personal care/soap.png",
+      "PrimaryLarge": "../Products/Personal care/soap.png"
+    },
+    "DescriptionHtmlSimple": "<p>Gentle beauty soap for clean, soft, and hydrated skin.</p>",
+    "Store": "Santé Lakay",
+    "Stock": 85,
+    "Rating": 4.7,
+    "Weight": "125 g",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  },
+  {
+    "Id": "personal-care-004",
+    "Name": "Bèl Po Body Lotion",
+    "NameWithoutBrand": "Body Lotion",
+    "Brand": {
+      "Name": "Bèl Po"
+    },
+    "Category": "personal-care",
+    "FinalPrice": 7.99,
+    "SuggestedRetailPrice": 9.99,
+    "Currency": "USD",
+    "Images": {
+      "PrimarySmall": "../Products/Personal care/body_lotion.png",
+      "PrimaryMedium": "../Products/Personal care/body_lotion.png",
+      "PrimaryLarge": "../Products/Personal care/body_lotion.png"
+    },
+    "DescriptionHtmlSimple": "<p>Moisturizing body lotion enriched for smooth and nourished skin.</p>",
+    "Store": "Santé Lakay",
+    "Stock": 65,
+    "Rating": 4.8,
+    "Weight": "400 ml",
+    "Origin": "Imported",
+    "Featured": true,
+    "Colors": [
+      {
+        "ColorName": "White"
+      }
+    ]
+  }
+]
