@@ -5,6 +5,7 @@ import { getHaitiHolidays, renderHaitiHolidays } from "./haitiInfo.mjs";
 
 new Alert();
 updateCartCount();
+
 loadHeaderFooter();
 loadProductCategories();
 initializeProductSearch();

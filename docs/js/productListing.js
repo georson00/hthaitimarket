@@ -4,8 +4,10 @@ import ExternalServices from "./externalServices.mjs";
 import ProductList from "./productList.mjs";
 
 new Alert();
+
+await loadHeaderFooter();
 updateCartCount();
-loadHeaderFooter();
+
 
 const sortFilter = document.querySelector("#sort-filter");
 

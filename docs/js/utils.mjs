@@ -58,22 +58,35 @@ export function renderWithTemplate(template, parentElement, data, callback) {
     callback(data);
   }
 }
+
+
 export function updateCartCount() {
   const cartItems = getLocalStorage("so-cart") || [];
-  const cartCount = document.querySelector("#cart-count");
+  const cartContainer = document.querySelector(".cart a");
 
-  if (!cartCount) return;
+  if (cartContainer) {
+    let cartCountElement = cartContainer.querySelector(".cart-count");
 
-  const totalItems = cartItems.reduce(
-    (total, item) => total + (item.quantity || 1),
-    0,
-  );
+    if (!cartCountElement) {
+      cartCountElement = document.createElement("span");
+      cartCountElement.className = "cart-count";
+      cartContainer.appendChild(cartCountElement);
+    }
 
-  cartCount.textContent = totalItems;
+    const count = cartItems.reduce(
+      (total, item) => total + (item.quantity || 1),
+      0,
+    );
+
+    cartCountElement.textContent = count;
+
+    if (count > 0) {
+      cartCountElement.classList.remove("hide");
+    } else {
+      cartCountElement.classList.add("hide");
+    }
+  }
 }
-
-
-
 
 export async function loadTemplate(path) {
   // Try Vite path first (for Vite dev server)
