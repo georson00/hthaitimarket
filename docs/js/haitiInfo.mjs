@@ -11,7 +11,6 @@ export async function getHaitiInfo() {
 
 export function renderHaitiInfo(country) {
   const container = document.querySelector("#haiti-info");
-
   if (!container) return;
 
   const currencyCode = Object.keys(country.currencies)[0];
@@ -25,14 +24,3 @@ export function renderHaitiInfo(country) {
     <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
   `;
 }
-
-async function loadHaitiInfo() {
-  try {
-    const haiti = await getHaitiInfo();
-    renderHaitiInfo(haiti);
-  } catch (error) {
-    console.error("Haiti API failed:", error);
-  }
-}
-
-loadHaitiInfo();

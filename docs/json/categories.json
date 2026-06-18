@@ -1,86 +1,38 @@
 [
   {
-    "Id": "food",
     "id": "food",
-    "Name": "Food and Groceries",
-    "name": "Food and Groceries",
-    "FileName": "food",
-    "fileName": "food",
-    "Image": "../Products/Food and Groceries/white_rice.png",
-    "image": "../Products/Food and Groceries/white_rice.png",
-    "Description": "Everyday grocery essentials for Haitian families.",
-    "description": "Everyday grocery essentials for Haitian families.",
-    "ProductCount": 8,
-    "productCount": 8
+    "name": "Food & Groceries",
+    "icon": "food.png",
+    "description": "Rice, beans, sugar, oil, pasta, and other grocery essentials."
   },
   {
-    "Id": "construction",
     "id": "construction",
-    "Name": "Construction Supply",
     "name": "Construction Supply",
-    "FileName": "construction",
-    "fileName": "construction",
-    "Image": "../Products/Construction Supply/cement.png",
-    "image": "../Products/Construction Supply/cement.png",
-    "Description": "Building and home improvement materials.",
-    "description": "Building and home improvement materials.",
-    "ProductCount": 4,
-    "productCount": 4
+    "icon": "construction.png",
+    "description": "Cement, paint, doors, windows, and building materials."
   },
   {
-    "Id": "electrical",
     "id": "electrical",
-    "Name": "Electrical Supply",
     "name": "Electrical Supply",
-    "FileName": "electrical",
-    "fileName": "electrical",
-    "Image": "../Products/Electrical Supply/solar_panel.png",
-    "image": "../Products/Electrical Supply/solar_panel.png",
-    "Description": "Solar and power products for reliable energy.",
-    "description": "Solar and power products for reliable energy.",
-    "ProductCount": 4,
-    "productCount": 4
+    "icon": "electrical.png",
+    "description": "Solar panels, batteries, generators, and electrical equipment."
   },
   {
-    "Id": "household",
     "id": "household",
-    "Name": "Household & Appliances",
     "name": "Household & Appliances",
-    "FileName": "household",
-    "fileName": "household",
-    "Image": "../Products/Household & Appliances/gas_stove.png",
-    "image": "../Products/Household & Appliances/gas_stove.png",
-    "Description": "Furniture and appliances for home life.",
-    "description": "Furniture and appliances for home life.",
-    "ProductCount": 3,
-    "productCount": 3
+    "icon": "household.png",
+    "description": "Furniture, kitchen appliances, and home essentials."
   },
   {
-    "Id": "personal-care",
     "id": "personal-care",
-    "Name": "Personal Care",
     "name": "Personal Care",
-    "FileName": "personal-care",
-    "fileName": "personal-care",
-    "Image": "../Products/Personal care/toothpaste.png",
-    "image": "../Products/Personal care/toothpaste.png",
-    "Description": "Health, hygiene, and beauty products.",
-    "description": "Health, hygiene, and beauty products.",
-    "ProductCount": 4,
-    "productCount": 4
+    "icon": "personal-care.png",
+    "description": "Soap, toothpaste, toothbrushes, lotion, and hygiene products."
   },
   {
-    "Id": "school",
     "id": "school",
-    "Name": "School & Office Supplies",
     "name": "School & Office Supplies",
-    "FileName": "school",
-    "fileName": "school",
-    "Image": "../Products/School & Office Supplies/backpack.png",
-    "image": "../Products/School & Office Supplies/backpack.png",
-    "Description": "School and office essentials for students and workers.",
-    "description": "School and office essentials for students and workers.",
-    "ProductCount": 4,
-    "productCount": 4
+    "icon": "school.png",
+    "description": "Backpacks, notebooks, pens, printers, and office materials."
   }
 ]
