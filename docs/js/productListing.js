@@ -23,7 +23,7 @@ sortFilter.addEventListener("change", (event) => {
   params.set("category", category);
   params.set("sort", selectedValue);
 
-  window.location.href = `/product_listing/?${params.toString()}`;
+  window.location.href = `/hthaitimarket/product_listing/?${params.toString()}`;
 });
 
 document.querySelector(".product_category_title").textContent =
@@ -34,9 +34,9 @@ const element = document.querySelector(".product-list");
 
 const productList = new ProductList(category, dataSource, element, sort);
 
-document.addEventListener("DOMContentLoaded", () => {
-  if (sort) {
-    sortFilter.value = sort;
-  }
-  productList.init();
-});
+
+if (sort) {
+  sortFilter.value = sort;
+}
+
+productList.init();
