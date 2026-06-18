@@ -29,7 +29,7 @@ function productCardTemplate(product) {
 
   return `
     <li class="product-card">
-      <a href="/product_pages/?product=${product.Id}">
+      <a href="/hthaitimarket/product_pages/?product=${product.Id}">
         <img src="${product.Images.PrimaryMedium}" alt="${product.Name}">
         ${discountHtml}
         <h2>${product.Brand.Name}</h2>
@@ -62,7 +62,7 @@ function productCardTemplate(product) {
               </div>
               <a
                 class="quick-view-dialog__link"
-                href="/product_pages/?product=${product.Id}"
+                href="/hthaitimarket/product_pages/?product=${product.Id}"
               >
                 View full details
               </a>
