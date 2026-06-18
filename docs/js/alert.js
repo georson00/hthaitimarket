@@ -6,7 +6,7 @@ export default class Alert {
 
   async loadAlerts() {
     try {
-      const response = await fetch("/json/alerts.json");
+      const response = await fetch("json/alerts.json");
       this.alerts = await response.json();
       this.renderAlerts();
     } catch (error) {

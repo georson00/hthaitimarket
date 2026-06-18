@@ -50,7 +50,7 @@ export default class ProductDetails {
   }
 
   renderProductDetails() {
-    document.title = `Sleep Outside | ${this.product.Name}`;
+    document.title = `HT Haiti Market | ${this.product.Name}`;
     const template = document.getElementById("product-template");
     const clone = template.content.cloneNode(true);
     document.querySelector(".comment-section").classList.remove("hide");
