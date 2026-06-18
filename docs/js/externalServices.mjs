@@ -1,53 +1,29 @@
-const baseURL = "../json/products.json";
-
-async function convertToJson(res) {
-  const body = await res.json();
-  if (res.ok) {
-    return body;
-  } else {
-    const msg = Object.values(body);
-
-    throw {
-      name: "Service Error",
-      message: msg || "Something went wrong",
-    };
-  }
-}
-
 export default class ExternalServices {
   async getData(category) {
-    const response = await fetch(`${baseURL}products/search/${category}`);
-    const data = await convertToJson(response);
-    return data.Result;
+    const response = await fetch(`/hthaitimarket/json/${category}.json`);
+
+    if (!response.ok) {
+      throw new Error(`Could not load ${category}.json`);
+    }
+
+    return await response.json();
   }
 
   async findProductById(id) {
-    const res = await fetch(`${baseURL}product/${id}`);
-    const product = await convertToJson(res);
-    return product.Result;
+    const response = await fetch("/hthaitimarket/json/products-all.json");
+
+    if (!response.ok) {
+      throw new Error("Could not load products-all.json");
+    }
+
+    const products = await response.json();
+    return products.find((product) => product.Id === id);
   }
 
   async processCheckout(payload) {
-    const res = await fetch(`${baseURL}checkout`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
-
-    return await convertToJson(res);
-  }
-
-  async searchProducts() {
-    // Get all three categories of products
-    const categories = ["tents", "backpacks", "sleeping-bags"];
-    const allProducts = [];
-
-    for (const category of categories) {
-      const response = await fetch(`../json/${category}.json`);
-      const products = await response.json();
-      allProducts.push(...products);
-    }
+    const orders = JSON.parse(localStorage.getItem("ht-orders")) || [];
+    orders.push(payload);
+    localStorage.setItem("ht-orders", JSON.stringify(orders));
+    return true;
   }
 }

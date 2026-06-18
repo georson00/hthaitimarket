@@ -138,8 +138,12 @@ export function alertMessage(message, scroll = true, duration = 4000) {
 
 export async function loadHeaderFooter() {
   try {
-    const headerTemplate = await loadTemplate("public/partials/header.html");
-    const footerTemplate = await loadTemplate("public/partials/footer.html");
+    const header = await loadTemplate(
+      "/hthaitimarket/public/partials/header.html",
+    );
+    const footer = await loadTemplate(
+      "/hthaitimarket/public/partials/footer.html",
+    );
 
     const headerElement = document.querySelector("#main-header");
     const footerElement = document.querySelector("#main-footer");
