@@ -11,9 +11,9 @@
     "SuggestedRetailPrice": 21.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Food and Groceries/white_rice.png",
-      "PrimaryMedium": "../Products/Food and Groceries/white_rice.png",
-      "PrimaryLarge": "../Products/Food and Groceries/white_rice.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Food and Groceries/white_rice.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Food and Groceries/white_rice.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Food and Groceries/white_rice.png"
     },
     "DescriptionHtmlSimple": "<p>Premium white rice for everyday family meals and Haitian-style cooking.</p>",
     "Store": "Lakay Market",
@@ -22,11 +22,7 @@
     "Weight": "10 lbs",
     "Origin": "Haiti",
     "Featured": true,
-    "Colors": [
-      {
-        "ColorName": "White"
-      }
-    ]
+    "Colors": [{ "ColorName": "White" }]
   },
   {
     "Id": "food-002",
@@ -40,9 +36,9 @@
     "SuggestedRetailPrice": 22.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Food and Groceries/yellow_rice.png",
-      "PrimaryMedium": "../Products/Food and Groceries/yellow_rice.png",
-      "PrimaryLarge": "../Products/Food and Groceries/yellow_rice.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Food and Groceries/yellow_rice.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Food and Groceries/yellow_rice.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Food and Groceries/yellow_rice.png"
     },
     "DescriptionHtmlSimple": "<p>Flavorful yellow rice with a colorful package inspired by Haitian agriculture.</p>",
     "Store": "Lakay Market",
@@ -51,11 +47,7 @@
     "Weight": "10 lbs",
     "Origin": "Haiti",
     "Featured": true,
-    "Colors": [
-      {
-        "ColorName": "Yellow"
-      }
-    ]
+    "Colors": [{ "ColorName": "Yellow" }]
   },
   {
     "Id": "food-003",
@@ -69,9 +61,9 @@
     "SuggestedRetailPrice": 17.49,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Food and Groceries/black_beans.png",
-      "PrimaryMedium": "../Products/Food and Groceries/black_beans.png",
-      "PrimaryLarge": "../Products/Food and Groceries/black_beans.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Food and Groceries/black_beans.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Food and Groceries/black_beans.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Food and Groceries/black_beans.png"
     },
     "DescriptionHtmlSimple": "<p>Protein-rich black beans for rice, soups, and traditional Haitian dishes.</p>",
     "Store": "Lakay Market",
@@ -80,11 +72,7 @@
     "Weight": "10 lbs",
     "Origin": "Haiti",
     "Featured": false,
-    "Colors": [
-      {
-        "ColorName": "Black"
-      }
-    ]
+    "Colors": [{ "ColorName": "Black" }]
   },
   {
     "Id": "food-004",
@@ -98,9 +86,9 @@
     "SuggestedRetailPrice": 18.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Food and Groceries/red_beans.png",
-      "PrimaryMedium": "../Products/Food and Groceries/red_beans.png",
-      "PrimaryLarge": "../Products/Food and Groceries/red_beans.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Food and Groceries/red_beans.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Food and Groceries/red_beans.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Food and Groceries/red_beans.png"
     },
     "DescriptionHtmlSimple": "<p>Premium red beans, perfect for diri kole and family meals.</p>",
     "Store": "Lakay Market",
@@ -109,11 +97,7 @@
     "Weight": "10 lbs",
     "Origin": "Haiti",
     "Featured": true,
-    "Colors": [
-      {
-        "ColorName": "Red"
-      }
-    ]
+    "Colors": [{ "ColorName": "Red" }]
   },
   {
     "Id": "food-005",
@@ -127,9 +111,9 @@
     "SuggestedRetailPrice": 6.49,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Food and Groceries/Spaguetti.png",
-      "PrimaryMedium": "../Products/Food and Groceries/Spaguetti.png",
-      "PrimaryLarge": "../Products/Food and Groceries/Spaguetti.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Food and Groceries/Spaguetti.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Food and Groceries/Spaguetti.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Food and Groceries/Spaguetti.png"
     },
     "DescriptionHtmlSimple": "<p>Premium spaghetti pasta for quick meals and Haitian spaghetti recipes.</p>",
     "Store": "Lakay Market",
@@ -138,11 +122,7 @@
     "Weight": "1 pack",
     "Origin": "Imported",
     "Featured": false,
-    "Colors": [
-      {
-        "ColorName": "Natural"
-      }
-    ]
+    "Colors": [{ "ColorName": "Natural" }]
   },
   {
     "Id": "food-006",
@@ -156,9 +136,9 @@
     "SuggestedRetailPrice": 4.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Food and Groceries/tomato_paste.png",
-      "PrimaryMedium": "../Products/Food and Groceries/tomato_paste.png",
-      "PrimaryLarge": "../Products/Food and Groceries/tomato_paste.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Food and Groceries/tomato_paste.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Food and Groceries/tomato_paste.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Food and Groceries/tomato_paste.png"
     },
     "DescriptionHtmlSimple": "<p>Rich tomato paste for sauces, stews, rice, and everyday cooking.</p>",
     "Store": "Lakay Market",
@@ -167,11 +147,7 @@
     "Weight": "28 oz",
     "Origin": "Haiti",
     "Featured": false,
-    "Colors": [
-      {
-        "ColorName": "Red"
-      }
-    ]
+    "Colors": [{ "ColorName": "Red" }]
   },
   {
     "Id": "food-007",
@@ -185,9 +161,9 @@
     "SuggestedRetailPrice": 10.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Food and Groceries/white_sugar.png",
-      "PrimaryMedium": "../Products/Food and Groceries/white_sugar.png",
-      "PrimaryLarge": "../Products/Food and Groceries/white_sugar.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Food and Groceries/white_sugar.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Food and Groceries/white_sugar.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Food and Groceries/white_sugar.png"
     },
     "DescriptionHtmlSimple": "<p>Refined white sugar for drinks, baking, and daily kitchen use.</p>",
     "Store": "Lakay Market",
@@ -196,11 +172,7 @@
     "Weight": "10 lbs",
     "Origin": "Haiti",
     "Featured": false,
-    "Colors": [
-      {
-        "ColorName": "White"
-      }
-    ]
+    "Colors": [{ "ColorName": "White" }]
   },
   {
     "Id": "food-008",
@@ -214,9 +186,9 @@
     "SuggestedRetailPrice": 11.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Food and Groceries/brown_sugar.png",
-      "PrimaryMedium": "../Products/Food and Groceries/brown_sugar.png",
-      "PrimaryLarge": "../Products/Food and Groceries/brown_sugar.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Food and Groceries/brown_sugar.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Food and Groceries/brown_sugar.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Food and Groceries/brown_sugar.png"
     },
     "DescriptionHtmlSimple": "<p>Natural brown sugar with a rich flavor for coffee, baking, and desserts.</p>",
     "Store": "Lakay Market",
@@ -225,10 +197,6 @@
     "Weight": "10 lbs",
     "Origin": "Haiti",
     "Featured": true,
-    "Colors": [
-      {
-        "ColorName": "Brown"
-      }
-    ]
+    "Colors": [{ "ColorName": "Brown" }]
   }
 ]

@@ -11,9 +11,9 @@
     "SuggestedRetailPrice": 14.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Construction Supply/cement.png",
-      "PrimaryMedium": "../Products/Construction Supply/cement.png",
-      "PrimaryLarge": "../Products/Construction Supply/cement.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Construction Supply/cement.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Construction Supply/cement.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Construction Supply/cement.png"
     },
     "DescriptionHtmlSimple": "<p>Strong Portland cement for foundations, walls, columns, and general construction.</p>",
     "Store": "Build Haiti Depot",
@@ -40,9 +40,9 @@
     "SuggestedRetailPrice": 34.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Construction Supply/paint.png",
-      "PrimaryMedium": "../Products/Construction Supply/paint.png",
-      "PrimaryLarge": "../Products/Construction Supply/paint.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Construction Supply/paint.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Construction Supply/paint.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Construction Supply/paint.png"
     },
     "DescriptionHtmlSimple": "<p>Durable Haitian paint for interior and exterior home finishing projects.</p>",
     "Store": "Build Haiti Depot",
@@ -69,9 +69,9 @@
     "SuggestedRetailPrice": 179.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Construction Supply/door.png",
-      "PrimaryMedium": "../Products/Construction Supply/door.png",
-      "PrimaryLarge": "../Products/Construction Supply/door.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Construction Supply/door.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Construction Supply/door.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Construction Supply/door.png"
     },
     "DescriptionHtmlSimple": "<p>Classic wooden door with frame and hardware for home construction and renovation.</p>",
     "Store": "Build Haiti Depot",
@@ -98,9 +98,9 @@
     "SuggestedRetailPrice": 159.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Construction Supply/window.png",
-      "PrimaryMedium": "../Products/Construction Supply/window.png",
-      "PrimaryLarge": "../Products/Construction Supply/window.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Construction Supply/window.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Construction Supply/window.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Construction Supply/window.png"
     },
     "DescriptionHtmlSimple": "<p>Modern sliding window with aluminum frame and clear glass panels.</p>",
     "Store": "Build Haiti Depot",

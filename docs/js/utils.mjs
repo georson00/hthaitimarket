@@ -138,16 +138,23 @@ export function alertMessage(message, scroll = true, duration = 4000) {
 
 export async function loadHeaderFooter() {
   try {
-    const header = await loadTemplate("/hthaitimarket/public/partials/header.html");
-    const footer = await loadTemplate("/hthaitimarket/public/partials/footer.html");
+    const headerTemplate = await loadTemplate(
+      "/hthaitimarket/public/partials/header.html",
+    );
+    const footerTemplate = await loadTemplate(
+      "/hthaitimarket/public/partials/footer.html",
+    );
 
     const headerElement = document.querySelector("#main-header");
     const footerElement = document.querySelector("#main-footer");
 
-    if (headerElement) renderWithTemplate(headerTemplate, headerElement);
-    if (footerElement) renderWithTemplate(footerTemplate, footerElement);
-    setupSearch();
-    updateCartCount();
+    if (headerElement) {
+      renderWithTemplate(headerTemplate, headerElement);
+    }
+
+    if (footerElement) {
+      renderWithTemplate(footerTemplate, footerElement);
+    }
   } catch (error) {
     console.error("Error loading header/footer:", error);
   }

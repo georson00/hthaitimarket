@@ -11,9 +11,9 @@
     "SuggestedRetailPrice": 16.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Household & Appliances/plastic_chair.png",
-      "PrimaryMedium": "../Products/Household & Appliances/plastic_chair.png",
-      "PrimaryLarge": "../Products/Household & Appliances/plastic_chair.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Household & Appliances/plastic_chair.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Household & Appliances/plastic_chair.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Household & Appliances/plastic_chair.png"
     },
     "DescriptionHtmlSimple": "<p>Durable plastic chair for home, yard, church, and community gatherings.</p>",
     "Store": "Home Essentials Haiti",
@@ -40,9 +40,9 @@
     "SuggestedRetailPrice": 359.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Household & Appliances/gas_stove.png",
-      "PrimaryMedium": "../Products/Household & Appliances/gas_stove.png",
-      "PrimaryLarge": "../Products/Household & Appliances/gas_stove.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Household & Appliances/gas_stove.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Household & Appliances/gas_stove.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Household & Appliances/gas_stove.png"
     },
     "DescriptionHtmlSimple": "<p>Four-burner gas stove with oven for reliable family cooking.</p>",
     "Store": "Home Essentials Haiti",
@@ -69,9 +69,9 @@
     "SuggestedRetailPrice": 599.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Household & Appliances/dining_table_set.png",
-      "PrimaryMedium": "../Products/Household & Appliances/dining_table_set.png",
-      "PrimaryLarge": "../Products/Household & Appliances/dining_table_set.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Household & Appliances/dining_table_set.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Household & Appliances/dining_table_set.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Household & Appliances/dining_table_set.png"
     },
     "DescriptionHtmlSimple": "<p>Wooden Haitian-style dining table set with six carved chairs.</p>",
     "Store": "Home Essentials Haiti",

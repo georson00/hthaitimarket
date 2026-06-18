@@ -11,9 +11,9 @@
     "SuggestedRetailPrice": 229.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Electrical Supply/solar_panel.png",
-      "PrimaryMedium": "../Products/Electrical Supply/solar_panel.png",
-      "PrimaryLarge": "../Products/Electrical Supply/solar_panel.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Electrical Supply/solar_panel.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Electrical Supply/solar_panel.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Electrical Supply/solar_panel.png"
     },
     "DescriptionHtmlSimple": "<p>High-efficiency solar panel for homes, small businesses, and backup power systems.</p>",
     "Store": "Solar Plus Haiti",
@@ -40,9 +40,9 @@
     "SuggestedRetailPrice": 469.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Electrical Supply/solar_inverter.png",
-      "PrimaryMedium": "../Products/Electrical Supply/solar_inverter.png",
-      "PrimaryLarge": "../Products/Electrical Supply/solar_inverter.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Electrical Supply/solar_inverter.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Electrical Supply/solar_inverter.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Electrical Supply/solar_inverter.png"
     },
     "DescriptionHtmlSimple": "<p>Reliable solar inverter designed for clean power and home energy systems.</p>",
     "Store": "Solar Plus Haiti",
@@ -69,9 +69,9 @@
     "SuggestedRetailPrice": 329.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Electrical Supply/battery.png",
-      "PrimaryMedium": "../Products/Electrical Supply/battery.png",
-      "PrimaryLarge": "../Products/Electrical Supply/battery.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Electrical Supply/battery.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Electrical Supply/battery.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Electrical Supply/battery.png"
     },
     "DescriptionHtmlSimple": "<p>Deep-cycle solar battery for storing energy and supporting backup systems.</p>",
     "Store": "Solar Plus Haiti",
@@ -98,9 +98,9 @@
     "SuggestedRetailPrice": 419.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Electrical Supply/generator.png",
-      "PrimaryMedium": "../Products/Electrical Supply/generator.png",
-      "PrimaryLarge": "../Products/Electrical Supply/generator.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Electrical Supply/generator.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Electrical Supply/generator.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Electrical Supply/generator.png"
     },
     "DescriptionHtmlSimple": "<p>Compact generator for backup electricity during outages and emergencies.</p>",
     "Store": "Solar Plus Haiti",

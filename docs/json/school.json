@@ -11,9 +11,9 @@
     "SuggestedRetailPrice": 29.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/School & Office Supplies/backpack.png",
-      "PrimaryMedium": "../Products/School & Office Supplies/backpack.png",
-      "PrimaryLarge": "../Products/School & Office Supplies/backpack.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/School & Office Supplies/backpack.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/School & Office Supplies/backpack.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/School & Office Supplies/backpack.png"
     },
     "DescriptionHtmlSimple": "<p>Durable school backpack with multiple compartments and padded straps.</p>",
     "Store": "EduLakay Supplies",
@@ -40,9 +40,9 @@
     "SuggestedRetailPrice": 3.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/School & Office Supplies/notebook.png",
-      "PrimaryMedium": "../Products/School & Office Supplies/notebook.png",
-      "PrimaryLarge": "../Products/School & Office Supplies/notebook.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/School & Office Supplies/notebook.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/School & Office Supplies/notebook.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/School & Office Supplies/notebook.png"
     },
     "DescriptionHtmlSimple": "<p>Lined composition notebook for school notes, assignments, and daily writing.</p>",
     "Store": "EduLakay Supplies",
@@ -69,9 +69,9 @@
     "SuggestedRetailPrice": 6.49,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/School & Office Supplies/pens.png",
-      "PrimaryMedium": "../Products/School & Office Supplies/pens.png",
-      "PrimaryLarge": "../Products/School & Office Supplies/pens.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/School & Office Supplies/pens.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/School & Office Supplies/pens.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/School & Office Supplies/pens.png"
     },
     "DescriptionHtmlSimple": "<p>Pack of ten smooth-writing ballpoint pens for school and office use.</p>",
     "Store": "EduLakay Supplies",
@@ -98,9 +98,9 @@
     "SuggestedRetailPrice": 199.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/School & Office Supplies/printer.png",
-      "PrimaryMedium": "../Products/School & Office Supplies/printer.png",
-      "PrimaryLarge": "../Products/School & Office Supplies/printer.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/School & Office Supplies/printer.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/School & Office Supplies/printer.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/School & Office Supplies/printer.png"
     },
     "DescriptionHtmlSimple": "<p>Multifunction inkjet printer for printing, copying, and scanning documents.</p>",
     "Store": "EduLakay Supplies",
