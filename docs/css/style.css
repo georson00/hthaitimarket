@@ -406,6 +406,10 @@ button:hover {
 
 /* Quick view dialog styling*/
 .quick-view-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: min(700px, 90vw);
   max-width: 700px;
   max-height: 90vh;
