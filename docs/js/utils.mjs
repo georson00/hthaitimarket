@@ -17,7 +17,7 @@ export function setLocalStorage(key, data) {
 
 // remove item from cart
 export function removeItemfromStorage(id) {
-  const cartItems = getLocalStorage("so-cart");
+  const cartItems = getLocalStorage("so-cart") || [];
   const updatedCart = cartItems.filter((item) => item.Id !== id);
   setLocalStorage("so-cart", updatedCart);
 }
@@ -58,30 +58,22 @@ export function renderWithTemplate(template, parentElement, data, callback) {
     callback(data);
   }
 }
-
-// dynamically updates the backpack cart count superscript badge
 export function updateCartCount() {
   const cartItems = getLocalStorage("so-cart") || [];
-  const cartContainer = document.querySelector(".cart a");
-  if (cartContainer) {
-    let cartCountElement = cartContainer.querySelector(".cart-count");
-    if (!cartCountElement) {
-      cartCountElement = document.createElement("span");
-      cartCountElement.className = "cart-count";
-      cartContainer.appendChild(cartCountElement);
-    }
-    const count = cartItems.reduce(
-      (total, item) => total + (item.quantity || 1),
-      0,
-    );
-    cartCountElement.textContent = count;
-    if (count > 0) {
-      cartCountElement.classList.remove("hide");
-    } else {
-      cartCountElement.classList.add("hide");
-    }
-  }
+  const cartCount = document.querySelector("#cart-count");
+
+  if (!cartCount) return;
+
+  const totalItems = cartItems.reduce(
+    (total, item) => total + (item.quantity || 1),
+    0,
+  );
+
+  cartCount.textContent = totalItems;
 }
+
+
+
 
 export async function loadTemplate(path) {
   // Try Vite path first (for Vite dev server)
