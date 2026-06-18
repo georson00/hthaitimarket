@@ -4,9 +4,11 @@ import ProductSearch from "./productSearch.mjs";
 import { getHaitiHolidays, renderHaitiHolidays } from "./haitiInfo.mjs";
 
 new Alert();
+
+await loadHeaderFooter();
 updateCartCount();
 
-loadHeaderFooter();
+
 loadProductCategories();
 initializeProductSearch();
 loadHaitiInfo();
