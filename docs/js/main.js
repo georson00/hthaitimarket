@@ -2,7 +2,7 @@ import Alert from "./alert.js";
 import { updateCartCount, loadHeaderFooter } from "./utils.mjs";
 import ProductSearch from "./productSearch.mjs";
 import { getHaitiHolidays, renderHaitiHolidays } from "./haitiInfo.mjs";
-
+import { renderListWithTemplate } from "./utils.mjs";
 new Alert();
 
 await loadHeaderFooter();
@@ -70,3 +70,45 @@ async function loadProductCategories() {
     console.error("Categories failed:", error);
   }
 }
+
+async function loadFeaturedProducts() {
+  try {
+    const response = await fetch("json/products-all.json");
+
+    if (!response.ok) {
+      throw new Error("Could not load featured products");
+    }
+
+    const products = await response.json();
+    const featuredProducts = products.filter((product) => product.Featured);
+
+    const featuredList = document.querySelector(".featured-products-list");
+
+    if (!featuredList) return;
+
+    renderListWithTemplate(
+      featuredProductTemplate,
+      featuredList,
+      featuredProducts,
+      "afterbegin",
+      true,
+    );
+  } catch (error) {
+    console.error("Featured products failed:", error);
+  }
+}
+
+function featuredProductTemplate(product) {
+  return `
+    <li class="product-card">
+      <a href="/hthaitimarket/product_pages/?product=${product.Id}">
+        <img src="${product.Images.PrimaryMedium}" alt="${product.Name}">
+        <h2>${product.Brand.Name}</h2>
+        <h3>${product.Name}</h3>
+        <p class="product-card__price">$${Number(product.FinalPrice).toFixed(2)}</p>
+      </a>
+    </li>
+  `;
+}
+
+loadFeaturedProducts();
