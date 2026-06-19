@@ -11,9 +11,9 @@
     "SuggestedRetailPrice": 4.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Personal care/toothpaste.png",
-      "PrimaryMedium": "../Products/Personal care/toothpaste.png",
-      "PrimaryLarge": "../Products/Personal care/toothpaste.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Personal care/toothpaste.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Personal care/toothpaste.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Personal care/toothpaste.png"
     },
     "DescriptionHtmlSimple": "<p>Mint toothpaste for fresh breath, cavity protection, and daily oral care.</p>",
     "Store": "Santé Lakay",
@@ -40,9 +40,9 @@
     "SuggestedRetailPrice": 3.49,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Personal care/toothbrush.png",
-      "PrimaryMedium": "../Products/Personal care/toothbrush.png",
-      "PrimaryLarge": "../Products/Personal care/toothbrush.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Personal care/toothbrush.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Personal care/toothbrush.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Personal care/toothbrush.png"
     },
     "DescriptionHtmlSimple": "<p>Soft-bristle toothbrush designed for comfortable daily cleaning.</p>",
     "Store": "Santé Lakay",
@@ -69,9 +69,9 @@
     "SuggestedRetailPrice": 3.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Personal care/soap.png",
-      "PrimaryMedium": "../Products/Personal care/soap.png",
-      "PrimaryLarge": "../Products/Personal care/soap.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Personal care/soap.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Personal care/soap.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Personal care/soap.png"
     },
     "DescriptionHtmlSimple": "<p>Gentle beauty soap for clean, soft, and hydrated skin.</p>",
     "Store": "Santé Lakay",
@@ -98,9 +98,9 @@
     "SuggestedRetailPrice": 9.99,
     "Currency": "USD",
     "Images": {
-      "PrimarySmall": "../Products/Personal care/body_lotion.png",
-      "PrimaryMedium": "../Products/Personal care/body_lotion.png",
-      "PrimaryLarge": "../Products/Personal care/body_lotion.png"
+      "PrimarySmall": "/hthaitimarket/images/Products/Personal care/body_lotion.png",
+      "PrimaryMedium": "/hthaitimarket/images/Products/Personal care/body_lotion.png",
+      "PrimaryLarge": "/hthaitimarket/images/Products/Personal care/body_lotion.png"
     },
     "DescriptionHtmlSimple": "<p>Moisturizing body lotion enriched for smooth and nourished skin.</p>",
     "Store": "Santé Lakay",
