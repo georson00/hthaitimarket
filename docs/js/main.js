@@ -80,9 +80,12 @@ async function loadFeaturedProducts() {
     }
 
     const products = await response.json();
-    const featuredProducts = products.filter((product) => product.Featured);
 
-    const featuredList = document.querySelector(".featured-products-list");
+    const featuredProducts = products
+      .filter((product) => product.Featured === true)
+      .slice(0, 4);
+
+    const featuredList = document.querySelector("#featured-product-list");
 
     if (!featuredList) return;
 
@@ -97,7 +100,6 @@ async function loadFeaturedProducts() {
     console.error("Featured products failed:", error);
   }
 }
-
 function featuredProductTemplate(product) {
   return `
     <li class="product-card">
